@@ -24,6 +24,7 @@ x.x.x Release notes (yyyy-MM-dd)
 ### Fixed
 * Fixes crashes on some iOS devices when upgrading realm file to new format ([2902](https://github.com/realm/realm-js/issues/2902))
 * Fixes a possible 'NoSuchTable' exception after upgrading of a realm file on some devices ([3701](https://github.com/realm/realm-core/issues/3701))
+* Missing `toJSON` TS declaration added for `Realm.Object` ([2903](https://github.com/realm/realm-js/issues/2903))
 
 ### Compatibility
 * Realm Object Server: 3.23.1 or later.
